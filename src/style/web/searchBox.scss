@@ -1,0 +1,19 @@
+.search-box {
+  width: 300px;
+  height: 32px;
+  line-height: 32px;
+   .el-input__inner {
+    font-size: 14px;
+    height:32px;
+    line-height:32px;
+    &:hover {
+      border-color: $selectedColor;
+    }
+    &:focus {
+      border-color: $selectedColor;
+    }
+  }
+   .el-input__prefix, .el-input__suffix {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,54 @@
+.zall-input-container {
+  position: relative;
+  width: fit-content;
+  .el-input {
+    width: auto !important;
+  }
+  .el-input__inner {
+    border: 1px solid $inputBorderColor;
+    border-radius: 2px;
+    padding: 5px 10px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #26292E;
+    &:focus {
+      border: 1px solid $selectedColor;
+    }
+  }
+
+   .el-textarea__inner {
+    border: 1px solid $inputBorderColor;
+    border-radius: 2px;
+    resize: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    height: 88px !important;
+    color: #26292E;
+    width: $inputW5;
+    &:hover {
+      border-color: $inputBorderHoverColor;
+    }
+    &:focus {
+      border-color: $selectedColor;
+    }
+  }
+
+   .el-textarea.is-disabled .el-textarea__inner {
+    background-color: #fff;
+  }
+   .el-input.is-disabled .el-input__inner {
+    background-color: #fff;
+  }
+  .zall-input-number {
+    position: absolute;
+    right: 5px;
+    bottom: 4px;
+    color: #888d97;
+  }
+  .input-show-limit {
+    .el-textarea__inner, .el-input__inner {
+      padding-right: 30px;
+    }
+  }
+}

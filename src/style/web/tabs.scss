@@ -1,0 +1,78 @@
+.z-tabs {
+  .el-tabs__header {
+    margin: 0;
+  }
+  .el-tabs__nav-wrap::after {
+    content: "";
+    height: 2px;
+    background-color: #e4e7ed;
+  }
+  .el-tabs__active-bar {
+    background-color: $selectedColor;
+    padding: 0 16px;
+    box-sizing: content-box;
+    height: 1px;
+    bottom: 1px;
+    left: -16px;
+  }
+  .el-tabs__nav {
+    @include flex-center;
+  }
+  .el-tabs__item {
+    padding: 0 16px !important;
+    color: #888d97;
+    @include flex-center;
+    > span {
+      @include flex-center;
+    }
+    &.is-active {
+      font-size: 14px;
+      color: $selectedColor;
+    }
+  }
+
+  .event-label-select > .el-select > .el-input {
+    @include flex-center;
+    padding: 0 0 0 16px;
+    width: 104px;
+    height: 32px;
+
+    .el-input__suffix {
+    }
+  }
+  &.el-tabs--border-card > .el-tabs__header {
+    .el-tabs__item {
+      &:not(.is-disabled):hover {
+        color: #888d97;
+      }
+      &.is-active {
+        color: $selectedColor;
+        &:hover {
+          color: $selectedColor;
+        }
+      }
+    }
+  }
+
+  .event-label-select .el-input__inner {
+    border: none;
+
+    &::-webkit-input-placeholder {
+      color: #26292e;
+    }
+    &::-moz-input-placeholder {
+      color: #26292e;
+    }
+    &::-ms-input-placeholder {
+      color: #26292e;
+    }
+  }
+  span[class^="event-num"] {
+    @include flex-center;
+    margin-left: 8px;
+    //width: 31px;
+    padding: 0 11px;
+    height: 25px;
+    background-color: #f6f7f9;
+  }
+}

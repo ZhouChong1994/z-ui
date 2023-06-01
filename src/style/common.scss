@@ -1,0 +1,64 @@
+
+/*
+ 全局变量
+*/
+// 主题色
+$selectedColor: var(--selectedColor, #8038CF);
+// 用户色
+$logoColor: var(--logoColor, #977BF4);
+// element 按钮的hover
+$hoverColor: var(--hoverColor, #6E29BB);
+// a链色
+$aColor: var(--aColor, #3C73EC);
+// 时间选择器范围色
+$rangeColor: var(--rangeColor, #F1EBF9);
+// button 颜色
+$buttonColor: var(--buttonColor, #888D97);
+// 选择器hover
+$selectColorHover: var(--selectColorHover, rgba(128, 56, 207, 0.05));
+// 选择器hover行
+$selectColorlineHover: var(--selectColorlineHover, rgba(128, 56, 207, 0.05));
+// 输入框边框颜色
+$inputBorderColor: #DBDEE4;
+// 输入框hover边框颜色
+$inputBorderHoverColor: #9BA0AA;
+// 主色0.06透明
+$selectedColor006: var(--selectedColor006, rgba(128, 56, 207, 0.06));
+
+// input宽度
+$inputW1: 104px;
+$inputW2: 216px;
+$inputW3: 328px;
+$inputW4: 440px;
+$inputW5: 552px;
+
+// 字体配置
+$fontSize: 14px;
+$fontSizeEvent: 12px;
+$fontColorEvent: #26292e;
+
+// sidebar
+$menuText: #bbb;
+$menuHoverText: #2d404f;
+$menuActiveText: #33a397;
+
+$subMenuBg: #09121a;
+$subMenuHover: #263445;
+
+$sideBarWidth: 66px;
+
+$tableHearBgColor: #F6F7F9;
+
+// element-ui 主题颜色
+$successColor: #67c23a;
+$warningColor: #e6a23c;
+$dangerColor: #f56c6c;
+$infoColor: #909399;
+$primaryText: #303133;
+$borderBase: #dcdfe6;
+$borderLight: #e4e7ed;
+$borderLighter: #ebeef5;
+$borderLightest: #f2f6fc;
+$borderNormal: #efefef80;
+$tagBgColor: #F6F7F9;
+$defaultColor: #f2f2f2;
